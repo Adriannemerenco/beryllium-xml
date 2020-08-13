@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+    <remote name="device"
+            fetch="https://github.com"
+            revision="ten" />
+			
+    <remote name="vendor"
+            fetch="https://github.com"
+            revision="ten" />
+			
+	<remote name="kernel"
+            fetch="https://github.com"
+            revision="ten" />		
+			
+    <!--Device Trees-->
+    <project path="device/xiaomi/beryllium" name="ktanay98/android_device_xiaomi_beryllium" remote="device" />
+
+
+    <!--Kernel-->
+    <project path="kernel/xiaomi/beryllium" name="PainKiller3/kernel_xiaomi_sdm845/" remote="kernel" />
+
+
+    <!-- Vendor folders -->
+    <project path="vendor/xiaomi/beryllium" name="ktanay98/vendor_xiaomi/tree/ten/beryllium" remote="vendor" />	
+</manifest>
